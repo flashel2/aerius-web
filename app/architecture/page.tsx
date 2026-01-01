@@ -159,18 +159,31 @@ export default function ArchitectureTH() {
         <Divider />
 
         {/* ================= FOOTER ================= */}
-        <footer className="pt-16 space-y-6 border-t border-white/10">
+        <footer className="pt-20 space-y-6 border-t border-white/10">
+          <p className="text-sm uppercase tracking-wide text-[#eab308]/80">
+            Carbonyx AI · Cognitive Infrastructure
+          </p>
+
           <p className="text-[#9fb3c8]">
-            ปัญญาไม่ได้เริ่มที่คำตอบ — ปัญญาเริ่มที่โครงสร้าง
+            ปัญญาไม่ได้เริ่มที่คำตอบ - ปัญญาเริ่มที่โครงสร้าง
           </p>
+
           <p>
-            ติดต่อ: <span className="text-cyan-400">founder@aerius.to</span>
+            ติดต่อเรา : <span className="text-cyan-400">founder@aerius.to</span>
           </p>
-          <p className="text-sm text-[#9fb3c8]">
-            เอกสาร · สถาปัตยกรรม · White Paper · ทรัพย์สินทางปัญญา
+           <p className="text-[#9fb3c8]">
+           เอกสาร · สถาปัตยกรรม · White Paper · ทรัพย์สินทางปัญญา <span className="text-cyan-400"></span>
+          </p>
+          <p className="text-xs text-[#6b7c90]">
+            Aerius is a Carbonyx AI architecture · All rights reserved
           </p>
         </footer>
       </div>
     </main>
   );
 }
+
+
+
+
+

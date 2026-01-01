@@ -1,20 +1,29 @@
+import React from "react";
+
 export function Section({
   title,
   subtitle,
   children,
+  className = "space-y-6",
+  headerClassName = "space-y-2",
+  titleClassName = "text-3xl font-semibold tracking-tight text-[#eab308]",
+  subtitleClassName = "text-[#9fb3c8]",
 }: {
-  title?: string;
-  subtitle?: string;
+  title: React.ReactNode;
+  subtitle?: React.ReactNode;
   children: React.ReactNode;
+  className?: string;
+  headerClassName?: string;
+  titleClassName?: string;
+  subtitleClassName?: string;
 }) {
   return (
-    <section className="space-y-6">
-      {title && (
-        <h2 className="text-2xl font-medium text-white">{title}</h2>
-      )}
-      {subtitle && (
-        <p className="text-[#9fb3c8]">{subtitle}</p>
-      )}
+    <section className={className}>
+      <header className={headerClassName}>
+        <h2 className={titleClassName}>{title}</h2>
+        {subtitle ? <p className={subtitleClassName}>{subtitle}</p> : null}
+      </header>
+
       {children}
     </section>
   );

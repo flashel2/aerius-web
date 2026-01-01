@@ -163,12 +163,18 @@ export default function ArchitectureEN() {
 
         {/* ================= FOOTER ================= */}
         <footer className="pt-16 space-y-6 border-t border-white/10">
+         <p className="text-sm uppercase tracking-wide text-[#eab308]/80">
+            Carbonyx AI · Cognitive Infrastructure
+          </p>
           <p className="text-[#9fb3c8]">
             Architecture · Cognitive Control · Deterministic Systems
           </p>
 
           <p>
-            Contact: <span className="text-cyan-400">founder@aerius.to</span>
+            Contact : <span className="text-cyan-400">founder@aerius.to</span>
+          </p>
+          <p className="text-xs text-[#6b7c90]">
+            Aerius is a Carbonyx AI architecture · All rights reserved
           </p>
         </footer>
 

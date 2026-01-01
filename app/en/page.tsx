@@ -124,7 +124,7 @@ export default function HomeEN() {
 
             <p className="pt-3 text-[#9fb3c8]">
               Scaling models does not create intelligence.  
-              It only amplifies uncertainty.
+              It only amplifies statistical uncertainty.
             </p>
           </Card>
         </Section>
@@ -134,7 +134,7 @@ export default function HomeEN() {
         {/* ================= WHAT IS AERIUS ================= */}
         <Section title="What Aerius Is (Without Metaphor)">
           <p className="text-[#9fb3c8]">
-            Aerius is a system, not a model.
+            Aerius is a system - not a model.
           </p>
 
           <p>
@@ -158,7 +158,7 @@ export default function HomeEN() {
             </Card>
             <Card icon="⚖️" title="Emotion & Ethics">
               Emotion and ethics as governed systems,  
-              not heuristics or prompts.
+              not heuristics or prompt-driven behavior.
             </Card>
             <Card icon="🎛️" title="Action Control">
               Every action is bounded and justified.
@@ -245,18 +245,24 @@ export default function HomeEN() {
         <Divider />
 
         {/* ================= FOOTER ================= */}
-        <footer className="pt-16 space-y-6 border-t border-white/10">
+        <footer className="pt-20 space-y-6 border-t border-white/10">
+          <p className="text-sm uppercase tracking-wide text-[#eab308]/80">
+            Carbonyx AI · Cognitive Infrastructure
+          </p>
+
           <p className="text-[#9fb3c8]">
-            No ads · No reassurance · No apologies for constraints
+            No ads · No reassurance · No illusions
+
           </p>
+
           <p>
-            Contact: <span className="text-cyan-400">founder@aerius.to</span>
+            Contact : <span className="text-cyan-400">founder@aerius.to</span>
           </p>
-          <p className="text-sm text-[#9fb3c8]">
-            Architecture · White Paper · Intellectual Property
+
+          <p className="text-xs text-[#6b7c90]">
+            Aerius is a Carbonyx AI architecture · All rights reserved
           </p>
         </footer>
-
       </div>
     </main>
   );

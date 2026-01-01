@@ -164,8 +164,8 @@ export default function WhitepaperEN() {
         {/* ================= ACCESS ================= */}
         <Section title="Request Full Access">
           <p className="text-[#9fb3c8]">
-            To request access to the full White Paper (limited review),
-            contact:
+            To request access to the full White Paper (limited review)
+            contact :
           </p>
 
           <p className="pt-3 text-cyan-400">
@@ -179,15 +179,32 @@ export default function WhitepaperEN() {
 
         <Divider />
 
-        {/* ================= FOOTER ================= */}
+
+
+
+
+
+    {/* ================= FOOTER ================= */}
         <footer className="pt-16 space-y-6 border-t border-white/10">
+         <p className="text-sm uppercase tracking-wide text-[#eab308]/80">
+            Carbonyx AI · Cognitive Infrastructure
+          </p>
           <p className="text-[#9fb3c8]">
+            Architecture · Cognitive Control · Deterministic Systems
+          </p>
+            <p className="text-[#9fb3c8]">
             Structure without responsibility is dangerous.  
             Intelligence without structure is an illusion.
           </p>
 
-          <p className="text-sm text-[#9fb3c8]">
+          <p>
+            Contact : <span className="text-cyan-400">founder@aerius.to</span>
+          </p>
+            <p className="text-sm text-[#9fb3c8]">
             White Paper (Abstract) · Architecture · Intellectual Property
+            </p>
+          <p className="text-xs text-[#6b7c90]">
+            Aerius is a Carbonyx AI architecture · All rights reserved
           </p>
         </footer>
 
@@ -195,3 +212,4 @@ export default function WhitepaperEN() {
     </main>
   );
 }
+

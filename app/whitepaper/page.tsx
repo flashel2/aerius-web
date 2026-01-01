@@ -172,17 +172,23 @@ export default function WhitepaperTH() {
 
         {/* ================= FOOTER ================= */}
         <footer className="pt-16 space-y-6 border-t border-white/10">
+         <p className="text-sm uppercase tracking-wide text-[#eab308]/80">
+            Carbonyx AI · Cognitive Infrastructure
+          </p>
           <p className="text-[#9fb3c8]">
             ปัญญาที่ไร้โครงสร้าง คือภาพลวงตา  
             โครงสร้างที่ไร้ความรับผิดชอบ คืออันตราย
           </p>
 
           <p>
-            ติดต่อ: <span className="text-cyan-400">founder@aerius.to</span>
+            ติดต่อเรา : <span className="text-cyan-400">founder@aerius.to</span>
           </p>
 
           <p className="text-sm text-[#9fb3c8]">
             White Paper (Abstract) · Architecture · Intellectual Property
+          </p>
+          <p className="text-xs text-[#6b7c90]">
+            Aerius is a Carbonyx AI architecture · All rights reserved
           </p>
         </footer>
       </div>
